@@ -4,9 +4,18 @@ Explored Deep Convolutional Generative Adversarial Networks (GANs) by generating
 I am focusing only on this experiment in the readme. Rest of the experiments can be found in separate notebooks. 
 
 Dataset: https://www.kaggle.com/c/painter-by-numbers/data
-Tensorflow Tutorial - Rich documentation about GANs: https://www.tensorflow.org/tutorials/generative/dcgan
+Tensorflow Tutorial was a great help: https://www.tensorflow.org/tutorials/generative/dcgan
 
 
 
 ## Input Paintings
-![Alt text](originalImage.png?raw=true "Title")
+### Original Painting
+![Original Painting](originalImage.png?raw=true "Title")
+
+### Cropping the Original Painting
+Cropped the original painting randomly thousand time to create my required training dataset.
+![Original Painting](input.png?raw=true "Title")
+
+### Output
+And here is the output! My generator entertained me by creating cool paintings for me, LOL!
+![Original Painting](outputs.png?raw=true "Title")
